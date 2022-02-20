@@ -1,0 +1,16 @@
+<label id="value_lable">
+    {% for shift in shifts %}
+    {{ shift }}<br>
+    {% endfor %}
+</label>
+<button id="return_to_menu">Return To Menu</button>
+<script>
+    document.getElementById("return_to_menu").addEventListener("click",function () {
+        document.getElementById("backdrop").style.visibility = "visible"
+        document.getElementById("curtain").style.visibility = "hidden"
+        $("#curtain").html("");
+        $("#result_div").slideUp("slow");
+        $("#image_div").slideUp("slow");
+        document.getElementById("graph_image").src = ""
+    })
+</script>

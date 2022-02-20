@@ -1,0 +1,139 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    background-color: #F0F8FF;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+table {
+    table-layout: auto;
+    width: auto;
+}
+#result_table {
+    margin: 0px;
+    width:95%;
+    border-collapse: collapse;
+}
+
+h1 {
+text-align: center;
+color: #4682B4;
+font-family: Arial;
+}
+
+td input, td button, td text {
+    box-sizing:border-box;
+    display:block;
+    width:100%;
+}
+table.td {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     word-wrap: break-word;
+     child-align: middle;
+     padding: 30px;
+ }
+
+#menu_table{
+    margin:auto;
+}
+
+#result_table {
+        margin:auto;
+}
+
+.quodrant{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.qtop,
+.qbottom{
+    width: 96%;
+    height: 46vh;
+}
+.quodrant3{
+    display: inline;
+    overflow-y: scroll;
+    float: left;
+    width: 100%;
+    height: 96%;
+    border-radius: 30px;
+    margin: 2%;
+    font-family: Arial;
+}
+
+.quodrant1,
+.quodrant2{
+    display: inline;
+    float: left;
+    width: 46%;
+    height: 96%;
+    border-radius: 30px;
+    margin: 2%;
+    font-family: Arial;
+}
+
+.quodrant4{
+
+}
+
+.quodrant3{
+    position: relative;
+    background-color: #FAEBD7;
+    font-family: Arial;
+}
+
+
+.quodrant1{
+    background-color: #F0F8FF;
+    font-family: Arial;
+}
+
+.quodrant2{
+    background-color: #F0F8FF;
+
+    position: relative;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#backdrop{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+}
+#curtain{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 2;
+    visibility: hidden;
+}
+#graph_image{
+    margin: auto;
+}
