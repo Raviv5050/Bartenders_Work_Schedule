@@ -1,4 +1,4 @@
-# Bartenders_Work_Schedule
+# Bartenders Work Schedule
 
 #### Created by:
 - Raviv Haham
