@@ -26,12 +26,12 @@ The main screen has a graphic display which runs all the algorithms we learned, 
 
 ![UML](https://imgur.com/ObURMgk.png)
 
-<br/>
+
 ### Running
 
 To run, open PyCharm, then open your terminal and run the project with "py selectionControlClass.py" command. Then open your browser with "http://localhost:80/" domain and enjoy :)
 
-<br/>
+
 ## Future improvements
 
 As we continue to work on this app, we encourage anyone that wants to help out to do so!
