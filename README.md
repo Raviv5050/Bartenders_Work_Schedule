@@ -14,11 +14,10 @@ An optimization system that solves the work scheduling problem by using all the 
 - Hill climbing (with random restart)
 - simulated annealing
 - Genetic algorithm
-
 The problem of managing the work arrangement of bartenders is a subproblem of the shift arrangement problem which is a well-known optimization problem defined as a np-hard problem.
 The problem is to determining a personal work arrangement for each bartender (each bartender has different days and hours that are convenient for him, and especially different requests), and our optimization system would like to find a legal solution (a solution that meets all the hard constraints) that will meets all these constraints.
 
-<br/>
+
 The different screens
 -
 The main screen has a graphic display which runs all the algorithms we learned, and finally we presente the the best weekly arrangement that takes into account all the hard and soft constraints of the bar company, that represents the best solution.
