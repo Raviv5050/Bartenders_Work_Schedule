@@ -9,7 +9,7 @@ Project Description
 -
 In this project, we worked on several features:
 An optimization system that solves the work scheduling problem by using all the algorithms we learned, and finds the best weekly arrangement that takes into account all the hard and soft constraints of the bar company.
-The algorithms we implemented are:
+####The algorithms we implemented are:
 - Hill climbing (with random restart)
 - simulated annealing
 - Genetic algorithm
